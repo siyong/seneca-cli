@@ -11,6 +11,7 @@
     "url": ""
   },
   "dependencies": {
+    "lodash": "^4.17.4",
     "seneca": "^3.4.1",
     "seneca-amqp-transport": "^2.2.0",
     "vorpal": "^1.12.0"

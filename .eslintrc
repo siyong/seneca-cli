@@ -1,0 +1,73 @@
+{
+    "extends": "airbnb-base",
+    "rules": {
+        "max-len": 0,
+        "no-param-reassign": 0,
+        "no-multi-assign": 0,
+        "max-params": [
+            "error",
+            {
+                "max": 4
+            }
+        ],
+        "class-methods-use-this": 0,
+        "prefer-arrow-callback": [
+            "error",
+            {
+                "allowNamedFunctions": true
+            }
+        ],
+        "arrow-body-style": 0,
+        "strict": [
+            0,
+            "never"
+        ],
+        "indent": [
+            "error",
+            4
+        ],
+        "eol-last": 0,
+        "func-names": [
+            "error",
+            "as-needed"
+        ],
+        "lines-around-directive": 0,
+        "no-underscore-dangle": 0,
+        "comma-dangle": [
+            "error",
+            {
+                "arrays": "never",
+                "objects": "never",
+                "imports": "never",
+                "exports": "never",
+                "functions": "ignore"
+            }
+        ],
+        "brace-style": [
+            2,
+            "stroustrup"
+        ],
+        "no-unused-expressions": [
+            2,
+            {
+                "allowShortCircuit": true,
+                "allowTernary": true
+            }
+        ]
+    },
+    "env": {
+        "mocha": true,
+        "node": true,
+        "es6": true
+    },
+    "globals": {
+        "it": true,
+        "describe": true,
+        "before": true,
+        "beforeEach": true,
+        "after": true,
+        "afterEach": true,
+        "testHelper": true,
+        "app": true
+    }
+}
