@@ -12,8 +12,8 @@ npm install seneca-cli -g
 $ seneca-cli
 
 seneca-cli$
-seneca-cli$ set-url amqp://admin:admin@localhost:5672
-set url successful amqp://admin:admin@localhost:5672
+seneca-cli$ set-url amqp://user:password@localhost:5672
+set url successful amqp://user:password@localhost:5672
 
 seneca-cli$ set-pin foo:bar
 set pin successful foo:bar
