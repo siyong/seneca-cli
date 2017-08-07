@@ -10,6 +10,9 @@
     "type": "git",
     "url": ""
   },
+  "bin": {
+    "seneca-cli": "./index.js"
+  },
   "dependencies": {
     "lodash": "^4.17.4",
     "seneca": "^3.4.1",
