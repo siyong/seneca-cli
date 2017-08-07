@@ -1,0 +1,23 @@
+{
+  "name": "seneca-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "seneca": "^3.4.1",
+    "seneca-amqp-transport": "^2.2.0",
+    "vorpal": "^1.12.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "siyong",
+  "license": "MIT",
+  "homepage": ""
+}
