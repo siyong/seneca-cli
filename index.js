@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-console.log('Hello, world!');
+console.log('Werlcome to seneca cli!');
 
 require('./lib/seneca-cli');

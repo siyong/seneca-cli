@@ -14,6 +14,7 @@
     "seneca-cli": "./index.js"
   },
   "dependencies": {
+    "jsonic": "^0.3.0",
     "lodash": "^4.17.4",
     "seneca": "^3.4.1",
     "seneca-amqp-transport": "^2.2.0",
